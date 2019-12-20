@@ -39,7 +39,6 @@ public class DependencyPass {
 //
 //	@Override
 //	public void play() {
-//		// TODO Auto-generated method stub
 //		System.out.println("长虹电视机，打开");
 //	}
 //
@@ -87,11 +86,13 @@ interface ITV { // ITV接口
 class OpenAndClose implements IOpenAndClose {
     private ITV tv;
 
-    public void setTv(ITV tv) {
+    @Override
+	public void setTv(ITV tv) {
         this.tv = tv;
     }
 
-    public void open() {
+    @Override
+	public void open() {
         this.tv.play();
     }
 }
@@ -100,7 +101,6 @@ class ChangHong implements ITV {
 
     @Override
     public void play() {
-        // TODO Auto-generated method stub
         System.out.println("长虹电视机，打开");
     }
 
