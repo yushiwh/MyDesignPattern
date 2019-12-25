@@ -15,7 +15,7 @@
 | 设计原则名称                                        | 定 义       | 使用频率                                 | 代码位置 |
 | :-------------------------------------------------- | ------------------------------------------------ | -------- |------|
 | 单一职责原则 (Single Responsibility Principle, SRP) | 一个类只负责一个功能领域中的相应职责             | ★★★★☆    | com.ys.principle.singleresponsibility |
-| 开闭原则 (Open-Closed Principle, OCP)               | 软件实体应对扩展开放，而对修改关闭               | ★★★★★    |  |
+| 开闭原则 (Open-Closed Principle, OCP)               | 软件实体应对提供方扩展开放，而对使用方修改关闭。用抽象构建框架，用实现扩展细节。 | ★★★★★    | com.ys.principle.ocp.improve |
 | 里氏代换原则 (Liskov Substitution Principle, LSP)   | 所有引用基类对象的地方能够透明地使用其子类的对象 | ★★★★★    | com.ys.principle.liskov.improve |
 | 依赖倒转原则 (Dependence Inversion Principle, DIP)  | 抽象不应该依赖于细节，细节应该依赖于抽象(1.通过接口传递实现依赖 2.通过构造方法依赖传递 3.通过setter方法传递) | ★★★★★    | com.ys.principle.inversion.improve |
 | 接口隔离原则 (Interface Segregation Principle, ISP) | 使用多个专门的接口，而不使用单一的总接口         | ★★☆☆☆    | com.ys.principle.segregation.improve |
