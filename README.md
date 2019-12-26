@@ -20,7 +20,7 @@
 | 依赖倒转原则 (Dependence Inversion Principle, DIP)  | 抽象不应该依赖于细节，细节应该依赖于抽象(1.通过接口传递实现依赖 2.通过构造方法依赖传递 3.通过setter方法传递) | ★★★★★    | com.ys.principle.inversion.improve |
 | 接口隔离原则 (Interface Segregation Principle, ISP) | 使用多个专门的接口，而不使用单一的总接口         | ★★☆☆☆    | com.ys.principle.segregation.improve |
 | 合成复用原则 (Composite Reuse Principle, CRP)       | 尽量使用对象组合，而不是继承来达到复用的目的     | ★★★★☆    | |
-| 迪米特法则 (Law of Demeter, LoD)                    | 一个软件实体应当尽可能少地与其他实体发生相互作用 | ★★★☆☆    | |
+| 迪米特法则 (Law of Demeter, LoD)                    | 一个软件实体应当尽可能少地与其他实体发生相互作用 | ★★★☆☆    | com.ys.principle.demeter |
 
 
 
