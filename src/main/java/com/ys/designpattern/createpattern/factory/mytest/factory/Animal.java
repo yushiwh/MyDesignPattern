@@ -1,4 +1,4 @@
-package com.ys.designpattern.createpattern.factory.mytest;
+package com.ys.designpattern.createpattern.factory.mytest.factory;
 
 /**
  * 定义抽象类，定好方法

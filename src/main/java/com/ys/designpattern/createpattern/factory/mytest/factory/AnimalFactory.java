@@ -1,4 +1,4 @@
-package com.ys.designpattern.createpattern.factory.mytest;
+package com.ys.designpattern.createpattern.factory.mytest.factory;
 
 import org.springframework.util.StringUtils;
 
