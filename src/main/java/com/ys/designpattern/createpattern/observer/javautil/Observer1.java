@@ -27,8 +27,8 @@ public class Observer1 implements Observer {
 
         }
         if (o instanceof SubjectForSSQ) {
-            SubjectForSSQ subjectForSSQ = (SubjectForSSQ) o;
-            log.info(String.join("SubjectForSSQ:", "subjectForSSQ's msg -- >" + subjectForSSQ.getMsg()));
+            SubjectForSSQ subjectforssq = (SubjectForSSQ) o;
+            log.info(String.join("SubjectForSSQ:", "subjectForSSQ's msg -- >" + subjectforssq.getMsg()));
         }
     }
 }
